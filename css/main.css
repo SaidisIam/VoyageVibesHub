@@ -163,6 +163,7 @@ body {
 .form__input--location {
     width: 300px;
     background-image: url('./../img/icons/map.svg');
+    overflow: hidden;
 }
 
 .form__input--activity {
