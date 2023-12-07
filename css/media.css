@@ -16,7 +16,7 @@
     
     .form__input--location input,
     .form__input--activity input {
-        width: 100%;
+        max-width: 100%;
         /* box-sizing: border-box; */
     }
 
