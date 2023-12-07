@@ -1,7 +1,13 @@
 @media (max-width: 1230px) {
     .form {
-        width: auto;
+        max-width: 100%;
+        box-sizing: border-box;
         height: auto;
+    }
+
+    .form__input-wrapper {
+        width: 100%;
+        overflow: hidden;
     }
 
     .easepick-wrapper {
@@ -9,7 +15,8 @@
     }
     
     .form__input--location input {
-        overflow: hidden;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .form__input--when {
