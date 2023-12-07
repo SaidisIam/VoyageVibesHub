@@ -7,6 +7,10 @@
     .easepick-wrapper {
         z-index: 9;
     }
+    
+    .form__input--location input {
+        overflow: hidden;
+    }
 
     .form__input--when {
         width: 200px;
