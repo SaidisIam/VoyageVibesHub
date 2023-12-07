@@ -7,16 +7,17 @@
 
     .form__input-wrapper {
         width: 100%;
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
 
     .easepick-wrapper {
         z-index: 9;
     }
     
-    .form__input--location input {
+    .form__input--location input,
+    .form__input--activity input {
         width: 100%;
-        box-sizing: border-box;
+        /* box-sizing: border-box; */
     }
 
     .form__input--when {
